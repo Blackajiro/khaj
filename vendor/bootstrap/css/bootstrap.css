@@ -60,7 +60,15 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-image: linear-gradient(
+          90deg,
+          rgba(10, 10, 10, 0.3),
+          rgb(10, 10, 10)
+  ),
+  url("https://images.wallpaperscraft.com/image/starry_sky_galaxy_glitter_night_118638_3840x2160.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 [tabindex="-1"]:focus {
